@@ -30,7 +30,7 @@ namespace AdventureGame
                 shift++;
                 int index = Array.IndexOf(alphabet, c.ToString());        //get hold of letter in name and find index number of corresponding letter in alphabet
                 int position = index + shift;
-                int rand_choice = rand.Next(0, 3);
+                int rand_choice = rand.Next(1, 3);
                 pass[arr_index] = alphabet[position % 29];
 
                 if (rand_choice == 2)
